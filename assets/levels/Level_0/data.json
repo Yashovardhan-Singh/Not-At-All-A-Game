@@ -1,0 +1,53 @@
+{
+	"identifier": "Level_0",
+	"uniqueIdentifer": "73b65ae0-d7b0-11ee-88f9-51fa8febe0b5",
+	"x": 0,
+	"y": 0,
+	"width": 256,
+	"height": 192,
+	"bgColor": "#211E27",
+	"neighbourLevels": [
+		{
+			"levelIid": "7a3c46e0-d7b0-11ee-88f9-6b026e814bf4",
+			"dir": "e"
+		},
+		{
+			"levelIid": "7efbcac0-d7b0-11ee-88f9-e1f4a07ad8db",
+			"dir": "s"
+		},
+		{
+			"levelIid": "8033ae80-d7b0-11ee-88f9-1314b7bc5e1c",
+			"dir": "se"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Tiles.png"
+	],
+	"entities": {
+		"Enemy": [
+			{
+				"id": "Enemy",
+				"iid": "3c0471e0-d7b0-11ee-951f-eb6b6ff1c171",
+				"layer": "Entities",
+				"x": 176,
+				"y": 48,
+				"width": 16,
+				"height": 16,
+				"color": 3128895,
+				"customFields" : {}
+			},
+			{
+				"id": "Enemy",
+				"iid": "3cb99110-d7b0-11ee-951f-899dc8cfa7c1",
+				"layer": "Entities",
+				"x": 64,
+				"y": 32,
+				"width": 16,
+				"height": 16,
+				"color": 3128895,
+				"customFields" : {}
+			}
+		]
+	}
+}
