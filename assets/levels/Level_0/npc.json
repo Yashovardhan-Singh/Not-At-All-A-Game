@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "Enemy": [
+      {
+        "id": "Enemy",
+        "iid": "3c0471e0-d7b0-11ee-951f-eb6b6ff1c171",
+        "layer": "Entities",
+        "x": 176,
+        "y": 48,
+        "width": 16,
+        "height": 16,
+        "color": 3128895,
+        "customFields" : {}
+      },
+      {
+        "id": "Enemy",
+        "iid": "3cb99110-d7b0-11ee-951f-899dc8cfa7c1",
+        "layer": "Entities",
+        "x": 64,
+        "y": 32,
+        "width": 16,
+        "height": 16,
+        "color": 3128895,
+        "customFields" : {}
+      }
+    ]
+  }
+}

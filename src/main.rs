@@ -5,7 +5,6 @@ mod camera;
 mod entity;
 
 use raylib::prelude::*;
-use uuid;
 
 fn main() {
     let (mut rl, thread) = init().size(1920, 1080).title("Heya").build();
