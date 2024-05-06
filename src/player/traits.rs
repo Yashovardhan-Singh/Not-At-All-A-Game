@@ -4,8 +4,11 @@ use raylib::prelude::*;
 impl Default for Player {
     fn default() -> Self {
         Self {
-            position: Vector2{
-                ..Default::default()
+            bbox: Rectangle{
+                x: 0.0,
+                y: 0.0,
+                width: 16.0 * 7.5,
+                height: 16.0 * 7.5,
             }
         }
     }

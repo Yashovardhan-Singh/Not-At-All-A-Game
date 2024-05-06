@@ -5,5 +5,5 @@ use raylib::prelude::*;
 
 #[derive(Debug)]
 pub struct Player {
-    position: Vector2,
+    bbox: Rectangle,
 }

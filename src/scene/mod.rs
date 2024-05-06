@@ -9,4 +9,5 @@ pub struct Scene {
     pub camera: camera::Cam,
     pub curr_level: level::Level,
     pub entities: entity::Enemy,
+    pub level_bg: Texture2D,
 }

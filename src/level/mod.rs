@@ -18,7 +18,6 @@ pub struct Level {
     #[serde(rename = "neighbourLevels")]
     pub neighbours: Vec<NeighbourLevel>,
     pub layers: Vec<String>,
-
 }
 
 #[derive(Debug, Serialize, Deserialize)]
