@@ -1,4 +1,4 @@
-# Prototype Game
+# Prototype Game (Currently Abandoned)
 
 ### Todo:
 * Fix the json parsing, so I can have a level loaded
